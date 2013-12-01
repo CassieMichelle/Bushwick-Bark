@@ -1,0 +1,170 @@
+body { 
+
+ background-position: 0 500px;
+ padding-top: 320px;
+ /*margin-top: 100px; */
+ 
+
+}
+
+nav {
+	background-color: white;
+}
+
+.title {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 250px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 75px;
+	color: #59631E;
+   /*text-shadow: -15px 0 white, 0 15px white, 15px 0 white, 0 -15px white;*/
+
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+	font-size: 150px;
+	text-align: center;
+	/*margin: 50px;*/
+}
+
+h3 {
+	font-family: 'Poiret One', cursive;
+	font-size: 100px;
+	text-align: center;
+	margin: 35px;
+
+}
+
+h4 {
+	font-family: 'Poiret One', cursive;
+	font-size: 200px;
+	background-color: white;
+	margin-left: 200px;
+
+}
+
+li {
+	font-family: 'Gudea', sans-serif;
+	font-size: 60px;
+	
+
+}
+
+label {
+	font-family: 'Poiret One', cursive;
+	font-size: 60px;
+}
+
+p {
+	font-family: 'Gudea', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	margin: 100px 15px 55px 15px;
+	
+}
+
+nav li {
+	padding: 20px;
+	margin: 0px 10px 30px 10px;
+	float: right;
+	font-family: 'Gudea', sans-serif;
+	font-size: 60px;
+	
+}
+
+#hours li {
+	list-style-type: none;
+	text-align: center;
+}
+
+#contact{
+	padding: 50px;
+	margin: 50px;
+}
+
+#contact li {
+	list-style-type: none;
+}
+
+.container {
+	margin-bottom: 50px;
+	/*background-color: white;*/
+}
+
+#contactUs {
+	margin-bottom: 500px;
+}
+
+.item img {
+	width: 100%;
+	height: 100%;
+
+}
+
+.item {
+ background-color: white;
+}
+
+.board {
+
+	background-color: white;
+	margin: 100px 0 100px 0;
+	padding: 10%;
+	width: 100%;
+	display: inline-block;
+	overflow: inherit;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img{
+	height: 150px;
+}
+
+.navbar .brand 
+{
+	display: inline-block;
+	height: 100px;
+	padding: 0;
+	background: url('/images/logo.png') no-repeat left center;
+	float:left;
+	position: relative;
+}
+
+.vline {
+	border-left: 2px solid black;
+	
+	
+}
+
+.navbar .brand h4 {
+	left: 15px;
+}
+
+.hline {
+	border-top: 2px solid black;
+}
+
+
+.main_image img {
+	display: block;
+	/*background-size: 100%;*/
+	margin: 10px;
+
+
+}
+
+.footer p {
+	text-align: center;
+	display: inline;
+	margin: 1%;
+}
