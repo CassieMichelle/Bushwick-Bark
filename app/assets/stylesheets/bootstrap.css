@@ -1921,7 +1921,9 @@ output {
   vertical-align: middle;
 }
 
-.form-control-field {
+
+
+-field {
   display: block;
   width: 70%;
   height: 26%;
@@ -1941,12 +1943,14 @@ output {
 
 }
 
-.form-control {
+
+
+ {
   display: block;
-  width: 70%;
-  height: 6%;
-  padding: 6px 12px;
-  font-size: 40px;
+  width: 100%;
+  height: 4%;
+  padding: 6px 6px;
+  font-size: 20px;
   line-height: 1.428571429;
   color: #555555;
   vertical-align: middle;
@@ -1960,37 +1964,55 @@ output {
           transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
-.form-control:focus {
+
+
+:focus {
   border-color: #66afe9;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 
-.form-control:-moz-placeholder {
+
+
+:-moz-placeholder {
   color: #999999;
 }
 
-.form-control::-moz-placeholder {
+
+
+::-moz-placeholder {
   color: #999999;
 }
 
-.form-control:-ms-input-placeholder {
+
+
+:-ms-input-placeholder {
   color: #999999;
 }
 
-.form-control::-webkit-input-placeholder {
+
+
+::-webkit-input-placeholder {
   color: #999999;
 }
 
-.form-control[disabled],
-.form-control[readonly],
-fieldset[disabled] .form-control {
+
+
+[disabled],
+
+
+[readonly],
+fieldset[disabled] 
+
+ {
   cursor: not-allowed;
   background-color: #eeeeee;
 }
 
-textarea.form-control {
+textarea
+
+ {
   height: auto;
 }
 
@@ -2103,13 +2125,17 @@ textarea.input-lg {
   color: #c09853;
 }
 
-.has-warning .form-control {
+.has-warning 
+
+ {
   border-color: #c09853;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
-.has-warning .form-control:focus {
+.has-warning 
+
+:focus {
   border-color: #a47e3c;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
@@ -2130,13 +2156,17 @@ textarea.input-lg {
   color: #b94a48;
 }
 
-.has-error .form-control {
+.has-error 
+
+ {
   border-color: #b94a48;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
-.has-error .form-control:focus {
+.has-error 
+
+:focus {
   border-color: #953b39;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
@@ -2157,13 +2187,17 @@ textarea.input-lg {
   color: #468847;
 }
 
-.has-success .form-control {
+.has-success 
+
+ {
   border-color: #468847;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
-.has-success .form-control:focus {
+.has-success 
+
+:focus {
   border-color: #356635;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
@@ -2175,7 +2209,9 @@ textarea.input-lg {
   border-color: #468847;
 }
 
-.form-control-static {
+
+
+-static {
   margin-bottom: 0;
 }
 
@@ -2192,7 +2228,9 @@ textarea.input-lg {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  .form-inline .form-control {
+  .form-inline 
+
+   {
     display: inline-block;
   }
   .form-inline .radio,
@@ -2244,7 +2282,9 @@ textarea.input-lg {
   clear: both;
 }
 
-.form-horizontal .form-control-static {
+.form-horizontal 
+
+-static {
   padding-top: 7px;
 }
 
@@ -2259,7 +2299,7 @@ textarea.input-lg {
   font-family: 'Poiret One', cursive;
   padding: 6px 12px;
   margin: 15px;
-  font-size: 60px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 1.428571429;
   text-align: center;
@@ -3910,12 +3950,16 @@ input[type="button"].btn-block {
   padding-left: 0;
 }
 
-.input-group .form-control {
+.input-group 
+
+ {
   width: 100%;
   margin-bottom: 0;
 }
 
-.input-group-lg > .form-control,
+.input-group-lg > 
+
+,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
   height: 45px;
@@ -3925,20 +3969,26 @@ input[type="button"].btn-block {
   border-radius: 6px;
 }
 
-select.input-group-lg > .form-control,
+select.input-group-lg > 
+
+,
 select.input-group-lg > .input-group-addon,
 select.input-group-lg > .input-group-btn > .btn {
   height: 45px;
   line-height: 45px;
 }
 
-textarea.input-group-lg > .form-control,
+textarea.input-group-lg > 
+
+,
 textarea.input-group-lg > .input-group-addon,
 textarea.input-group-lg > .input-group-btn > .btn {
   height: auto;
 }
 
-.input-group-sm > .form-control,
+.input-group-sm > 
+
+,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
   height: 30px;
@@ -3948,14 +3998,18 @@ textarea.input-group-lg > .input-group-btn > .btn {
   border-radius: 3px;
 }
 
-select.input-group-sm > .form-control,
+select.input-group-sm > 
+
+,
 select.input-group-sm > .input-group-addon,
 select.input-group-sm > .input-group-btn > .btn {
   height: 30px;
   line-height: 30px;
 }
 
-textarea.input-group-sm > .form-control,
+textarea.input-group-sm > 
+
+,
 textarea.input-group-sm > .input-group-addon,
 textarea.input-group-sm > .input-group-btn > .btn {
   height: auto;
@@ -3963,13 +4017,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .input-group-addon,
 .input-group-btn,
-.input-group .form-control {
+.input-group 
+
+ {
   display: table-cell;
 }
 
 .input-group-addon:not(:first-child):not(:last-child),
 .input-group-btn:not(:first-child):not(:last-child),
-.input-group .form-control:not(:first-child):not(:last-child) {
+.input-group 
+
+:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
 
@@ -4009,7 +4067,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-top: 0;
 }
 
-.input-group .form-control:first-child,
+.input-group 
+
+:first-child,
 .input-group-addon:first-child,
 .input-group-btn:first-child > .btn,
 .input-group-btn:first-child > .dropdown-toggle,
@@ -4022,7 +4082,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-right: 0;
 }
 
-.input-group .form-control:last-child,
+.input-group 
+
+:last-child,
 .input-group-addon:last-child,
 .input-group-btn:last-child > .btn,
 .input-group-btn:last-child > .dropdown-toggle,
@@ -4397,7 +4459,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-collapse {
-  max-height: 340px;
+  max-height: 240px;
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
@@ -4439,7 +4501,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
-    padding-bottom: 500px;
+    padding-bottom: 55px;
     overflow: visible !important;
   }
   .navbar-collapse.in {
@@ -4628,7 +4690,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  .navbar-form .form-control {
+  .navbar-form 
+
+   {
     display: inline-block;
   }
   .navbar-form .radio,
@@ -6399,7 +6463,7 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 100%;
-  height: 95%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -6413,7 +6477,7 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  height: auto;
+  height: 100%;
   max-width: 100%;
   line-height: 1;
 }

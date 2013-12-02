@@ -1,7 +1,7 @@
 body { 
 
  background-position: 0 500px;
- padding-top: 320px;
+ padding-top: 200px;
  /*margin-top: 100px; */
  
 
@@ -11,32 +11,23 @@ nav {
 	background-color: white;
 }
 
-.title {
+#carouselbark {
+	height: 500px;
 	width: 100%;
-	height: 100%;
-}
-
-h1 {
-	font-family: 'Poiret One', cursive;
-	font-size: 250px;
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 75px;
-	color: #59631E;
-   /*text-shadow: -15px 0 white, 0 15px white, 15px 0 white, 0 -15px white;*/
-
+	overflow: hidden;
+	margin-top: 5%;
 }
 
 h2 {
 	font-family: 'Poiret One', cursive;
-	font-size: 150px;
+	font-size: 55px;
 	text-align: center;
 	/*margin: 50px;*/
 }
 
 h3 {
 	font-family: 'Poiret One', cursive;
-	font-size: 100px;
+	font-size: 50px;
 	text-align: center;
 	margin: 35px;
 
@@ -44,38 +35,38 @@ h3 {
 
 h4 {
 	font-family: 'Poiret One', cursive;
-	font-size: 200px;
+	font-size: 80px;
 	background-color: white;
-	margin-left: 200px;
+	margin-left: 150px;
 
 }
 
 li {
 	font-family: 'Gudea', sans-serif;
-	font-size: 60px;
+	font-size: 20px;
 	
 
 }
 
 label {
 	font-family: 'Poiret One', cursive;
-	font-size: 60px;
+	font-size: 20px;
 }
 
 p {
 	font-family: 'Gudea', sans-serif;
-	font-size: 60px;
+	font-size: 20px;
 	text-align: center;
-	margin: 100px 15px 55px 15px;
+	margin: 50px 15px 55px 15px;
 	
 }
 
 nav li {
-	padding: 20px;
+	/*padding: 20px;*/
 	margin: 0px 10px 30px 10px;
 	float: right;
 	font-family: 'Gudea', sans-serif;
-	font-size: 60px;
+	font-size: 20px;
 	
 }
 
@@ -85,8 +76,8 @@ nav li {
 }
 
 #contact{
-	padding: 50px;
-	margin: 50px;
+	padding: 15px;
+	margin: 15px;
 }
 
 #contact li {
@@ -105,6 +96,7 @@ nav li {
 .item img {
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 
 }
 
@@ -115,8 +107,8 @@ nav li {
 .board {
 
 	background-color: white;
-	margin: 100px 0 100px 0;
-	padding: 10%;
+	margin: 0px 0 50px 0;
+	padding: 17% 10% 10% 10%;
 	width: 100%;
 	display: inline-block;
 	overflow: inherit;
@@ -127,13 +119,13 @@ nav li {
 }
 
 .logo img{
-	height: 150px;
+	height: 100px;
 }
 
 .navbar .brand 
 {
 	display: inline-block;
-	height: 100px;
+	height: 40px;
 	padding: 0;
 	background: url('/images/logo.png') no-repeat left center;
 	float:left;
@@ -168,3 +160,26 @@ nav li {
 	display: inline;
 	margin: 1%;
 }
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+		.container, .nav, #carouselbark, .carousel-indicators li {
+			display: none;
+
+		}
+
+		.board {
+			margin: 10px;
+			padding: 10px;
+		}
+	}
+@media only screen and (max-width: 818px), only screen and (max-device-width: 818px) {
+		.carousel-indicators li {
+			display: none;
+
+		}
+
+		.board {
+			margin: 5px;
+			padding: 0;
+		}
+	}
